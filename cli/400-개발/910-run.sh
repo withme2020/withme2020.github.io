@@ -14,10 +14,10 @@ echo "  프로젝트 : $project_dir"
 echo "  타켓     : $target"
 echo
 
-echo -en "\033]0;run $target\a" 
+echo -en "\033]0;bash $target\a" 
 
 docker-compose -f $project_dir/docker/docker-compose.yml \
-  run --name $BRAND_name-$target-dev-run \
+  run --name $BRAND_name-$target-dev-bash \
   --rm \
   --service-ports \
   withme2020-jekyll-dev \

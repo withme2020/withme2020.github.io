@@ -1,7 +1,15 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "최근글"
+    url: /
+  - title: "소개"
+    url: /about/
+  - title: "블로그"
+    url: /posts/
+  # - title: "문서"
+  #   url: /docs/
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -10,3 +18,10 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+docs:
+- title: "최근글"
+  url: /docs/recetry.
+- title: "쿠버네티스"
+  children:
+    - title: "소개1"
+      url: "/docs/kube/i1"
