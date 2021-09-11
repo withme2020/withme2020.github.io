@@ -12,6 +12,7 @@ services:
       - 35729:35729
     volumes:
       - ${HOME}/withme2020.github.io/:/srv/jekyll
+      - ${HOME}/m2pub.github.io/bundle:/usr/local/bundle
     environment:
       - LANG=ko_KR.UTF-8
       - LANGUAGE=ko_KR
